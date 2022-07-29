@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&family=Courgette&family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: rgb(232, 190, 63);
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+    width: 22rem;
+    height: 4rem;
+    background-color: antiquewhite;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+.menu, .bag{
+    width: 45px;
+    height: 45px;
+}
+.flavo{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Cormorant', serif;
+}
+.box-three{
+    margin: 1rem 4.5rem;
+}
+.product{
+    width: 250px;
+    height: 350px;
+}
+.text-passion{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.text-inside, .text-welove,.text-type,.text-intensity, .btn-select{
+    margin: 1rem 1.5rem;
+}
+input[type=radio]{
+    background-color: rgb(232, 190, 63);
+}
+.btn-quant{
+    display: flex;
+    justify-content: space-around;
+    width: 22rem;
+    height: 4rem;
+    margin: 1rem 1.5rem;
+    background-color: rgb(232, 190, 63);
+    border-radius: 25px;
+    border: 1px solid black;
+}
+.btn-men, .btn-number, .btn-som {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    font-size: 25px;
+    background-color: rgb(232, 190, 63);
+    border: none;
+}
+.btn-add{
+    display: flex;
+    justify-content: center;
+    width: 22rem;
+    height: 4rem;
+    margin: 0.2rem 1.5rem;
+    background-color: black;
+    border-radius: 25px;
+}
+.btn-add-cart{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
